@@ -5,7 +5,11 @@ body{
 	padding:0;
 }
 #particles-js{
-	background: firebrick;
+	background-image: url("bg.jpg");
 	height: 100%;
 	width: 100%;
+}
+
+.color-txt{
+	color: black;
 }
