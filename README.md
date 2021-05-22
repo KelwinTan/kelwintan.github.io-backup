@@ -1,116 +1,34 @@
-[![Material Design for Bootstrap](https://mdbootstrap.com/wp-content/uploads/2018/01/corporate.jpg)](https://mdbootstrap.com/freebies/jquery/portfolio/)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Bootstrap 4 & Material Design - Portfolio Template 
+## Getting Started
 
-Free, responsive Portfolio template containing stunning, full-page Intro and different types of galleries. Built with the newest Bootstrap 4 and Material Design. MIT license – free for personal and commercial use.
+First, run the development server:
 
-________
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-# Live Previews: 
-## https://mdbootstrap.com/freebies/jquery/portfolio/
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Most important features:
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-1. Fully responsive
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-2. Plenty of useful components
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-3. Easy installation
+## Learn More
 
-4. Easy to use and customize
+To learn more about Next.js, take a look at the following resources:
 
-5. Active community
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-6. Dedicated support forum
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-7. Detailed documentation
+## Deploy on Vercel
 
-# Demo:  
-**Main demo**: https://mdbootstrap.com/previews/free-templates/portfolio/full-page-gallery.html
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-# MDB Quick Start (5 minutes):
-**Written Tutorial**: https://mdbootstrap.com/education/bootstrap/quick-start/
-
-**Video Tutorial**:https://www.youtube.com/watch?v=cXTThxoywNQ&t=9s
-
-**npm installation**
-You can install MDBootstrap using NPM:
-- `npm install mdbootstrap`
-
-# Additional tutorials:
-
-**MDB - Bootstrap tutorial**: https://mdbootstrap.com/education/bootstrap/
-
-**MDB - Wordpress tutorial**: https://mdbootstrap.com/education/wordpress/
-
-# Documentation:
-
-**Huge, detailed documentation avilable online on**: https://mdbootstrap.com/
-
-# PRO version:
-
-**MDB Portfolio Template Pro (jQuery version)**: https://mdbootstrap.com/products/jquery-portfolio/
-
-# Highlights:  
-**Bootstrap 4**  
-Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.
-
-**Material Design for Bootstrap**  
-This template is built with MDBootstrap - powerful and free UI Kit, containing 400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files, templates, tutorials and many more.  
-
-**Free for personal and commercial use**  
-Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.   
-
-**10 fresh ready to use templates**  
-We are going further and giving to you ready to use templates! Use them as you like, as an inspiration, prototype or final product for your customers.  
-
-**Fully responsive**  
-It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB looks great on each screen.
-
-**Technical support**  
-We really care about reliability. If you have any questions - do not hesitate to contact us.  
-
-**Active community**  
-Our society grows day by day. Visit **our forum** and check how it is to be a part of our family.  
-
-**Flex box**  
-MDB fully suppports Flex Box. You can forget about alignment issues.  
-
-**Latest jQuery**  
-MDB is integrated with newest jQuery, therefore you can use all the newest features which comes along with it.  
-
-**Detailed documentation:**  
-We give you detailed documentation at your disposal. It will help you to implement your ideas easily.  
-
-A big **thank you to all our users** who are working with us to improve the software. We wouldn't be where we are without you.  
-
-# Useful Links:  
-
-Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/  
-
-5 min quick start: https://mdbootstrap.com/education/bootstrap/quick-start/  
-
-Material Design + Bootstrap Tutorial: https://mdbootstrap.com/education/bootstrap/  
-
-Material Design + WordPress Tutorial: https://mdbootstrap.com/education/wordpress/  
-
-Other Freebies: https://mdbootstrap.com/freebies/  
-
-Premium Templates: https://mdbootstrap.com/templates/  
-
-
-# Social Media:  
-
-Twitter: https://twitter.com/MDBootstrap  
-
-Facebook: https://www.facebook.com/mdbootstrap  
-
-Pinterest: https://pl.pinterest.com/mdbootstrap 
-
-Google+: https://plus.google.com/u/0/b/107863090883699620484/+Mdbootstrap/posts  
-
-Dribbble: https://dribbble.com/mdbootstrap
-
-LinkedIn: https://www.linkedin.com/company/material-design-for-bootstrap
-
-# Visit our website: https://mdbootstrap.com/
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
