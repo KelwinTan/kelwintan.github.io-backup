@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import Head from 'next/head'
-import styles from './main-layout.module.css'
+import './main-layout.module.css'
 import Link from 'next/link'
 import {
-    DesktopOutlined,
-    PieChartOutlined,
-    FileOutlined,
-    TeamOutlined,
+    FundProjectionScreenOutlined,
     UserOutlined,
 } from '@ant-design/icons';
 import { Layout, Menu, Breadcrumb } from 'antd';
@@ -35,13 +32,10 @@ export default function MainLayout({ children, home }) {
             <Sider collapsible collapsed={collapse} onCollapse={onCollapse}>
                 <Menu theme="dark" mode="inline">
                     <Menu.Item key="1" icon={<UserOutlined />}>
-                        <Link href="/">Kelwin Tantono</Link>
+                        <Link href="/">My Information</Link>
                     </Menu.Item>
-                    <Menu.Item key="2" icon={<DesktopOutlined />}>
-                        Portfolio
-                    </Menu.Item>
-                    <Menu.Item key="3" icon={<FileOutlined />}>
-                        <Link href="/work-experience">Work Experience</Link>
+                    <Menu.Item key="2" icon={<FundProjectionScreenOutlined />}>
+                        <Link href="/portfolio">Portfolio</Link>
                     </Menu.Item>
                 </Menu>
             </Sider>
@@ -50,7 +44,7 @@ export default function MainLayout({ children, home }) {
                 <Content style={{ margin: '0 16px' }}>
                     {children}
                 </Content>
-                <Footer style={{ textAlign: 'center' }}>Ant Design ©2021 Created by Ant UED</Footer>
+                <Footer style={{ textAlign: 'center' }}>Kelwin Tantono | Ant Design ©2021 Created by Ant UED</Footer>
             </Layout>
         </Layout>
     )
