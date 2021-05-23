@@ -6,7 +6,7 @@ import {
     FundProjectionScreenOutlined,
     UserOutlined,
 } from '@ant-design/icons';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu } from 'antd';
 
 const name = 'Kelwin Tantono'
 export const siteTitle = 'Kelwin Tantono'
@@ -22,14 +22,15 @@ export default function MainLayout({ children, home }) {
     return (
         <Layout style={{ minHeight: '100vh' }}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.png" />
                 <meta
                     name="description"
                     content="Kelwin Tantono"
                 />
                 <meta name="og:title" content={siteTitle} />
             </Head>
-            <Sider collapsible collapsed={collapse} onCollapse={onCollapse}>
+            <Sider
+                collapsible collapsed={collapse} onCollapse={onCollapse}>
                 <Menu theme="dark" mode="inline">
                     <Menu.Item key="1" icon={<UserOutlined />}>
                         <Link href="/">My Information</Link>

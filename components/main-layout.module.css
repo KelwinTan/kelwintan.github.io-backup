@@ -7,3 +7,8 @@
 .site-layout .site-layout-background {
     background: #FFFFFF;
 }
+
+.sidebar {
+    height: 100vh;
+    margin-right: 24px;
+}
